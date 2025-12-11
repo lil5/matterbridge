@@ -12,6 +12,7 @@ require (
 	github.com/gomarkdown/markdown v0.0.0-20240419095408-642f0ee99ae2
 	github.com/google/gops v0.3.27
 	github.com/gorilla/schema v1.4.1
+	github.com/grey-land/meshcore-go v0.0.0-20250713182324-97a5d1cdb4e4
 	github.com/hashicorp/golang-lru v1.0.2
 	github.com/jpillora/backoff v1.0.0
 	github.com/kyokomi/emoji/v2 v2.2.13
@@ -63,6 +64,7 @@ require (
 	github.com/beeper/argo-go v1.1.2 // indirect
 	github.com/blang/semver/v4 v4.0.0 // indirect
 	github.com/coder/websocket v1.8.14 // indirect
+	github.com/creack/goselect v0.1.2 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/dyatlov/go-opengraph/opengraph v0.0.0-20220524092352-606d7b1e5f8a // indirect
 	github.com/elliotchance/orderedmap/v3 v3.1.0 // indirect
@@ -128,6 +130,7 @@ require (
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
 	github.com/wiggin77/merror v1.0.5 // indirect
 	github.com/wiggin77/srslog v1.0.1 // indirect
+	go.bug.st/serial v1.6.4 // indirect
 	go.mau.fi/libsignal v0.2.1 // indirect
 	go.mau.fi/util v0.9.3 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
@@ -154,4 +157,4 @@ require (
 
 //replace github.com/matrix-org/gomatrix => github.com/matterbridge/gomatrix v0.0.0-20220205235239-607eb9ee6419
 
-go 1.24.0
+go 1.24.4
